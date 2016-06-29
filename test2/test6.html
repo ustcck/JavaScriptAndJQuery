@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test6</title>
+</head>
+<body>
+<script type="text/javascript">
+  //  通过break结束for循环
+  for (var i = 1; i >= 0; ++i) {
+    if (i > 100) {
+      break;
+    }
+    document.write(i + '<br/>');
+  }
+
+  document.write('<hr color="red"/>');
+
+  //  continue:代表跳过当次循环，进入下一次循环
+  for (var i = 1; i <= 10; i++) {
+    if (i == 3) {
+//      break;
+      continue;
+    }
+    document.write(i + '<br/>');
+  }
+</script>
+</body>
+</html>

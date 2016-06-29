@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+  /*  var test = function calc(a, b) {
+   return a + b;
+   };
+   alert(typeof test);
+   alert(test(3, 4));*/
+
+
+  //匿名函数
+  var test1 = function (x, y) {
+    return x * y;
+  };
+  document.write(test1(3, 6));
+
+  //回调函数
+  function calc(x, y) {
+    return x() + y();
+  }
+
+  function test2() {
+    return 4;
+  }
+  function test3() {
+    return 5;
+
+  }
+
+  alert(calc(test2, test3));
+</script>
+</body>
+</html>

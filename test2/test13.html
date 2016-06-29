@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+  //测试编码、解码URI的函数
+  var url = "http://www.zhangxm.com/test.php?search=this is a test&sum=1+2";
+  var res = encodeURI(url);
+  document.write(res);
+  document.write('<br/>');
+  var res1 = decodeURI(res);
+  document.write(res1 + '<br/>');
+
+
+  url = "http://www.zhangxm.com/test.php?search=this is a test&sum=1+2&test1=!.()*~";
+  var res2 = encodeURIComponent(url);
+  document.write(res2 + '<br/>');
+  var res3 = decodeURIComponent(res2);
+  document.write(res3 + '<br/>');
+
+  document.write('<hr color="red"/>');
+
+  //测试编码、解码string的函数
+  var str = 'hello zhangxm htttp://www.zhangxm.com?search=this is a test&test1=!.()_*~';
+  var res4 = escape(str);
+  document.write(res4+'<br/>');
+
+  var res5 = unescape(res4);
+  document.write(res5+'<br/>');
+
+  //测试eval函数
+  eval('var i=2;');
+  document.write(i);
+
+</script>
+</body>
+</html>
