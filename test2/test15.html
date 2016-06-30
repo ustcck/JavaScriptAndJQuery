@@ -8,12 +8,12 @@
 <script type="text/javascript">
   //通过对象字面量的形式创建对象
   var obj = {}; //没有任何属性的对象
-  alert(typeof obj);
+  //  alert(typeof obj);
   var obj1 = {x: 1, y: 2, z: 3};
   var obj2 = {
     'x': 4,
     'y': 2,
-    username: caokai,
+    username: 'caokai',
     'for': 'JavaScript关键字必须放在引号之间',
     'first-name': 'queen',
     married: true,
@@ -27,12 +27,34 @@
   };
 
   //通过new Object（）创建对象
-  var obj3 = new Object(); //创建了一个空对象，相当于{}
-  var arr = new Array();//创建了一个空数组，相当于[]
+  //  var obj3 = new Object(); //创建了一个空对象，相当于{}
+  //  var arr = new Array();//创建了一个空数组，相当于[]
   var date = new Date();
   var reg = new RegExp('js');
 
+  //通过构造函数的形式创建对象
+  function Test() {
+  }
+  var obj4 = new Test();
 
+
+  function Test2(num1, num2) {
+    this.n1 = num1;
+    this.n2 = num2;
+  }
+  var obj5 = new Test2(5, 6);
+  document.write(obj5.n1);
+  document.write('<br/>');
+  document.write(obj5.n2);
+
+  var s = obj5 instanceof Test2;
+  alert(s);
+
+  //通过Object.create()创建对象
+  var obj6 = Object.create({x: 1});
+  var obj7 = Object.create(null);
+  //创建普通的空对象
+  var obj8 = Object.create(Object.prototype);
 
 </script>
 </body>
