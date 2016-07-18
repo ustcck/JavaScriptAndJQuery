@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--获取设定内容：text()、html()、val()-->
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+</head>
+<body>
+<input type="text">
+<div>hello world <p>i am ring</p></div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      alert($('div').text());
+//      alert($('div').html());
+//      alert($('input').val());//val()就是value
+      alert($('div').html());
+
+    });
+  });
+</script>
+</html>

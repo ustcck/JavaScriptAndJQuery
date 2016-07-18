@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--层次选择器：-->
+<!--$('div .test')-->
+<!--$('.list>.test')-->
+<!--$('#first+ div')-->
+<!--$('#first~div')-->
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jquery selectors</title>
+  <!--<link rel="stylesheet" href="style.css">-->
+</head>
+<body>
+<div class="test">test</div>
+<div class="aa">
+  <div class="list">
+    <div class="test" id="first">1</div>
+    <div class="odd">2</div>
+    <div>3</div>
+    <div class="odd">4</div>
+    <div>5</div>
+  </div>
+</div>
+<button>Click Me</button>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('div .test').css('backgroundColor', 'yellow');//div下面的所有class为test的子孙元素
+//      $('.list>.test').css('backgroundColor', 'yellow');//class为list下面的class为test的子元素，但是不包括孙子元素
+//      $('#first+ div').css('backgroundColor', 'red');  //sibling兄弟姐妹元素，即为id为first的下面的第一个兄弟姐妹元素
+      $('#first~div').css('backgroundColor', 'blue');  //sibling兄弟姐妹元素，即为id为first的下面的所有的兄弟姐妹元素
+
+
+    })
+
+  })
+</script>
+</html>
+

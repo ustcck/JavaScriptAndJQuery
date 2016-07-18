@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery Introduction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button>click me</button>
+<div class="test"></div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {  //$(document) 即是jQuery选择器
+    $('button').on('click',function () {
+      alert('hello world');
+    })
+    $('.test').hide(1000).show(2000);
+  });
+</script>
+</html>
+<!--#代表id-->
+<!--.代表class-->
+<!--*代表所有-->

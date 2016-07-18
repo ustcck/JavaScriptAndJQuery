@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--content filters内容选择器-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>content filters</title>
+</head>
+<body>
+<div>hello world</div>
+<div>maiziedu
+  <span>is awesome</span>
+</div>
+<div style="height: 50px;width: 50px;background-color: red"></div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('div:contains(awesome)').css('backgroundColor', 'yellow');
+//      $('div:empty').css('backgroundColor', 'yellow');
+//      $('div:has(span)').css('backgroundColor', 'yellow');
+      $('div:parent').css('backgroundColor', 'yellow');//是empty的对立。即为只要div不为空就选中
+
+    });
+
+  });
+</script>
+</html>

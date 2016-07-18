@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>form Fliter</title>
+</head>
+<body>
+<input disabled type="text" value="hello">
+<input type="text" value="world">
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $(':input:disabled').css('backgroundColor', 'red');
+      $(':input:enabled').css('backgroundColor', 'red');
+
+    });
+
+  });
+</script>
+</html>

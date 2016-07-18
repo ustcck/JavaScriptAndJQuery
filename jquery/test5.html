@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Visibility Filter</title>
+</head>
+<body>
+<div style="display: none">hello</div>
+<div>world</div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('div:hidden').css('display', 'block');   //$(':hidden') 表示display none
+      $('div:visible').css('display', 'none');//$(':visible') 表示display not none
+    });
+  });
+</script>
+</html>

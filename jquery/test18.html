@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--wrap(),wrapAll(),unwrap(),wrapInner() method-->
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+</head>
+<body>
+<div>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</div>
+
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('li').wrap('<ul></ul>');
+//      $('li').wrapAll('<ul></ul>');
+//      $('li').unwrap();
+      $('li').wrapInner('<b><b/>');
+    });
+  });
+</script>
+</html>

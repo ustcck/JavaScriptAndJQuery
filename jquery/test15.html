@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--获取设定CSS style  [css()]-->
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div style="color: red;background-color: yellow">hello world</div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+      $('div').css('font-size', '30px');
+      $('div').css({
+        'background-color': 'red',
+        'color':'yellow'
+      });
+      $('div').css('font-size',function (index, oldValue) {
+//        alert(oldValue);
+        return '60px';
+      })
+    });
+  });
+</script>
+</html>

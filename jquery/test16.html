@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--append(),prepend() method-->
+<!--appendTo(),prependTo() method-->
+<!--after(),before() method-->
+<!--insertAfter(),insertBefore() method-->
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+</head>
+<body>
+<div class="a">
+  <div class="b">b</div>
+</div>
+
+<button>Click Me</button>
+<div class="c">c</div>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('.a').append($('.c'));
+//      $('.a').prepend($('.c'));
+//      $('.c').appendTo($('.a'));
+//      $('.c').prependTo($('.a'));
+//      $('.a').after($('.c'));
+//      $('.a').before($('.c'));
+//      $('.c').insertAfter($('.a'));
+      $('.c').insertBefore($('.a'));
+
+    });
+  });
+</script>
+</html>

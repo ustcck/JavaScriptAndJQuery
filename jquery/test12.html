@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--获取设定CSS Class  [addClass(),removeClass(),hasClass]-->
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div>hello world</div>
+<button>Click Me</button>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+      //$('div').addClass('red');
+      $('div').toggleClass('red');
+      alert($('div').hasClass('red'));
+    });
+  });
+</script>
+</html>

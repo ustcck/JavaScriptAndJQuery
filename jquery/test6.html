@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Attribute Filter</title>
+</head>
+<body>
+<div date-id="hello">hello</div>
+<div date-id="world">world</div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('div[date-id^="wo"]').css('backgroundColor', 'red');//以'wo'开始
+//      $('div[date-id$="lo"]').css('backgroundColor', 'red');//以...结束
+      $('div[date-id*="or"]').css('backgroundColor', 'red');//包含"or"的元素
+    });
+  });
+
+
+//  $("[href]")	所有带有 href 属性的元素
+//  $("[href='#']")	所有 href 属性的值等于 "#" 的元素
+//  $("[href!='#']")	所有 href 属性的值不等于 "#" 的元素
+//  $("[href$='.jpg']")	所有 href 属性的值包含以 ".jpg" 结尾的元素
+</script>
+</html>

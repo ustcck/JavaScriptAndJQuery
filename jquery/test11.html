@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--获取设定属性 [attr(),removeAttr()]-->
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+<div>hello world</div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('div').removeAttr('data-id');
+//      $('div').attr('data-id','something');
+      $('div').attr('data-id','something');
+
+    });
+  });
+</script>
+</html>

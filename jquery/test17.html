@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--remove(),empty(),detach() method-->
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+</head>
+<body>
+<input type="text">
+<div>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+</div>
+
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+      var a = $('div').remove();
+//      var a = $('div').empty();
+      a.insertAfter($('button'));
+    });
+  });
+</script>
+</html>

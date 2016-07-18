@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jquery selectors</title>
+  <!--<link rel="stylesheet" href="style.css">-->
+</head>
+<body>
+<h1>jquery selectors</h1>
+<div>jquery selectors</div>
+<div class="test">jquery selectors</div>
+<div id="test">jquery selectors</div>
+<button>Click Me</button>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      $('div').css('backgroundColor', 'yellow');//$('button')代表tag选择器
+//      $('#test').css('backgroundColor', 'red');//$('#test')代表id选择器
+//      $('.test').css('backgroundColor', 'blue');//$('.test')代表class选择器
+//      $('.test,#test,h1').css('backgroundColor', 'yellow');
+      $('*').css('backgroundColor', 'yellow');//*代表所有
+    });
+
+  });
+</script>
+</html>
+<!--$('button')代表tag选择器-->
+<!--$('#test')代表id选择器-->
+<!--$('.test')代表class选择器-->
+<!--*代表所有-->

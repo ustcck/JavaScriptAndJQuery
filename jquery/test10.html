@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery DOM Manipulation</title>
+</head>
+<body>
+<div>hello</div>
+<div>world</div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+//      alert($('div').text());
+//      alert($('div').html());
+//      alert($('input').val());//val()就是value
+      $('div').html(function (index, html) {
+        alert('' + index + ':' + html)
+      });
+
+    });
+  });
+</script>
+</html>
