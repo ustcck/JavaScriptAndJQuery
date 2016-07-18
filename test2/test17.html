@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+  /*
+   function foo() {
+   }
+   foo.prototype.z = 4;
+   var obj = new foo();
+   obj.x = 2;
+   obj.y = 3;
+   document.write(obj.x);
+   document.write('<br/>');
+   document.write(obj.y);
+   document.write('<br/>');
+   document.write(obj.z);
+   document.write('<br/>');
+   document.write(obj.toString);
+
+   //4个描述行为的特性 [[writable]] [[Enumerable]] [[configurable]] [[value]]
+   document.write('<br/>');
+   document.write('x' in obj);
+   document.write('<br/>');
+   document.write(obj.hasOwnProperty('x'));
+   document.write('<br/>');
+   document.write(obj.propertyIsEnumerable('x'));
+
+   document.write('<br/>');
+   document.write('z' in obj);
+   document.write('<br/>');
+   document.write(obj.hasOwnProperty('z'));
+   document.write('<br/>');
+   document.write(obj.propertyIsEnumerable('z'));//属性是对象自己的，并且是可枚举的才返回true
+   document.write('<br/>');
+
+   document.write(Object.prototype.propertyIsEnumerable('toString'));
+   document.write('<br/>');
+   */
+
+  var obj2 = {
+    'x': 4,
+    'y': 3,
+    'z': 2,
+    username: 'king',
+    age: 12,
+    addr: '北京',
+    salary: 12.3,
+    married: true
+  };
+  for (var p in obj2) {   //枚举
+    document.write(p + '<br/>');
+  }
+
+  document.write(Object.getOwnPropertyNames(obj2) + '<br/>');
+  document.write(Object.keys(obj2) + '<br/>');
+
+
+  //Object.defineProperty():给对象添加/修改一个属性并指定该属性的配置
+  var obj = {};
+  Object.defineProperty(obj, 'x', {
+    value: 12
+  });
+  document.write(obj.x + '<br/>');
+  obj.x = 123;
+  document.write(obj.x + '<br/>');
+
+  for (var p in obj) {
+    document.write(p + '<br/>');
+  }
+  //  document.write(Object.keys(obj) + '<br/>');
+  //  document.write(Object.getOwnPropertyNames(obj2) + '<br/>');
+
+  Object.defineProperty(obj, 'y', {
+    value: 56,
+    writable: true,  //是否可写
+    enumerable: true, //是否可枚举
+    configurable: false //是否可配置(删除)
+  });
+  document.write(obj.y + '<br/>');
+  obj.x = 123;
+  document.write(obj.y + '<br/>');
+  document.write(Object.keys(obj) + '<br/>');
+  document.write(Object.getOwnPropertyNames(obj) + '<br/>');
+
+  Object.defineProperty(obj, 'z', {
+    value: 'this is a test',
+    writable: true,  //是否可写
+    enumerable: true, //是否可枚举
+    configurable: true //是否可配置
+  });
+  document.write(obj.z + '<br/>');
+  obj.z = 'hello';
+  document.write(obj.z + '<br/>');
+  delete obj.z;
+  document.write(obj.z + '<br/>');
+
+  Object.defineProperty(obj, 'k', {
+    value: 1,
+    writable: false,  //是否可写
+    enumerable: false, //是否可枚举
+    configurable: true //是否可配置
+  });
+  document.write(obj.k + '<br/>');
+  obj.k = '23';
+  document.write(obj.k + '<br/>');
+  Object.defineProperty(obj, 'k', {
+    writable: true
+  });
+  obj.k = '23';
+  document.write(obj.k + '<br/>');
+  document.write(obj.propertyIsEnumerable('k') + '<br/>');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<input type="button" value="test1" id="btn1">
+<input type="button" value="test2" id="btn2">
+<script>
+  var btn1 = document.getElementById('btn1');
+  btn1.addEventListener('click', function () {
+    alert('btn1 clicked a');
+  }, false);
+  var handler = function () {
+    alert('btn1 clicked b');
+  };
+  btn1.addEventListener('click', handler, false);
+  btn1.addEventListener('click', function () {
+    alert('btn1 clicked c');
+  }, false);
+
+  var btn2 = document.getElementById('btn2');
+  var count=0;
+  function handler2() {
+    alert(count++);
+    if(count==3){
+      alert('事件被取消了');
+      btn2.removeEventListener('click', handler2, false);
+    }
+  }
+  btn2.addEventListener('click', handler2, false);
+
+
+</script>
+</body>
+</html>

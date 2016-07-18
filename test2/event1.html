@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--DOM2模型-->
+<!--“DOM2级事件”定义了两个方法，用于添加事件和删除事件处理程序的操作：addEventListener()和removeEventListener()。-->
+<!--所有DOM节点中都包含这两个方法，并且它们都接受3个参数；事件名、函数、冒泡或捕获的布尔值(true表示捕获，false表示冒泡)。-->
+<!--IE事件处理程序，IE中实现了DOM中类似的两个方法：attachEvent()和detachEvent().这两个方法接受相关的两个参数：事件处理程序名称和事件处理程序函数。-->
+<!--在IE8及IE8之间版本中只支持事件冒泡，所以通过attachEvent()添加的事件处理都会被添加到冒泡阶段。-->
+<div id="box1" style='background: #ABCDEF; width: 300px;height: 200px;'>
+  <input type="button" value="test1" id="btn1">
+</div>
+<script>
+  var btn1 = document.getElementById('btn1');
+  var box1 = document.getElementById('box1');
+  btn1.onclick = function () {
+    alert('button clicked');
+  };
+  box1.onclick = function () {
+    alert('div clicked');
+  };
+  document.body.onclick=function () {
+    alert('body clicked');
+  }
+  document.documentElement.onclick=function () {
+    alert('html clicked');
+  }
+  document.onclick=function () {
+    alert('document clicked');
+
+  }
+
+
+</script>
+</body>
+</html>

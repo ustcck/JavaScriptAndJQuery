@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  //数组
+  //数组字面量的形式创建数组
+  var arr = [1, 2, 3, 34334, true, null, [2, 3, 4, 5], {x: 1, y: 3}];
+  var x = 3;
+  var arr2 = [x, x + 3, x * 3];
+  document.write(arr + "<br/>");
+  document.write(arr2 + "<br/>");
+  document.write(arr2.length + "<br/>");
+  var arr3 = new Array(5);
+  document.write(arr3.length + "<br/>");
+
+
+  //通过new关键字创建数组
+  var arr4 = new Array(1, 4, 5, 'king', true, null);
+  document.write(arr4 + "<br/>");
+
+  var arr5 = [1, 2, 3, 4, 5, 6, 7, 8];
+  arr5.length = 3;
+  document.write(arr5 + '<br/>');
+
+  var arr6 = [1, 2, 3];
+  Object.defineProperty(arr6, 'length', {
+    writable: false
+  });
+  document.write(arr6.length + "<br/>");
+  arr6.length = 7;
+  document.write(arr6.length + "<br/>");
+
+  var arr7 = [];
+  arr7[0] = 'a';
+  arr7[1] = 'b';
+  arr7.push('c');
+  arr7.push('d', 'e', 'f', 12, 34);
+  document.write(arr7 + '<br/>');
+  arr7.pop();
+  document.write(arr7 + '<br/>');
+
+  arr7.unshift(1, 2, 3, 4, 5);//左部添加元素
+  document.write(arr7 + '<br/>');
+  res = arr7.shift();          //左部删除元素
+  document.write(res + '<br/>');
+  document.write(arr7 + '<br/>');
+
+  var arr8 = ['a', 'b', 'c', 'd'];
+  delete arr8[0];
+  document.write(arr8 + '<br/>');
+  document.write(arr8.length + '<br/>');
+
+
+  //数组的遍历
+  for (var i = 0, len = arr8.length; i < len; i++) {
+    document.write(arr8[i] + '<br>');
+  }
+
+  arr8[23] = 56;
+  arr8[43] = 786;
+  for (var j in arr8) {
+    document.write(arr8[j] + '<br>');
+  }
+
+  arr9 = [1, 2, 3, 4, 5, 7];
+  function Test(element, index, array) {
+    document.write('要处理是数组是：' + array + '<br>');
+    document.write('索引：' + index + '--值为：' + element + '<br>');
+
+  }
+  arr9.forEach(Test);
+
+
+</script>
+
+</body>
+</html>

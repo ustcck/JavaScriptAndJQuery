@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+  //同时设置多个属性
+  var person = {};
+  Object.defineProperties(person, {
+    'username': {
+      value: 'king',
+      writable: true,
+      enumerable: true,
+      configurable: true
+    },
+    age: {
+      value: 12,
+      writable: false
+    }
+  });
+  person.addr = '北京';
+  document.write(person.username + '<br>');
+  document.write(person.age + '<br>');
+  document.write(Object.getOwnPropertyDescriptor(person,'username') + '<br>');
+  document.write(Object.getOwnPropertyDescriptor(person,'age') + '<br>');
+  document.write(Object.getOwnPropertyDescriptor(person,'addr') + '<br>');
+
+  document.write('<hr color="red"/>');
+
+  //检测一个对象是否是另一个对象的原型
+  var obj = {x: 1};
+  var obj1 = Object.create(obj);
+  document.write(obj.isPrototypeOf(obj1)+ '<br>');
+  document.write(Object.prototype.isPrototypeOf(obj1)+ '<br>');
+
+  var arr = new Array();
+  document.write(Object.prototype.toString.call(arr) + '<br>');
+</script>
+</body>
+</html>

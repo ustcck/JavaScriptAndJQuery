@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+  var d = new Date();
+  document.write(d + '<br/>');
+  var d1 = new Date(1132355445645);
+  document.write(d1 + '<br/>');
+  var d2 = new Date(2016, 5, 1);
+  document.write(d2 + '<br/>');
+  var d3 = new Date(2013, 13, 3);
+  document.write(d3 + '<br/>');
+  var d4 = new Date(2015, 3);
+  document.write(d4 + '<br/>');
+
+  document.write(Date.now() + '<br/>');
+  document.write(new Date(1467304319958) + '<br/>');
+  document.write(Date.parse('Wed, 01 Apr 2015 00:00:00 GMT') + '<br/>');
+  document.write(Date.parse('Apr 6, 2016') + '<br/>');
+  document.write(Date.UTC(2016, 07, 01) + '<br/>');
+
+  var date = new Date("2016-06-11 12:23:12");
+  document.write(date.getDate() + '<br/>');
+  document.write(date.getDay() + '<br/>');
+  document.write(date.getFullYear() + '<br/>');
+  document.write(date.getMonth() + '<br/>');
+  document.write(date.getMilliseconds() + '<br/>');
+  document.write(date.getMinutes() + '<br/>');
+  document.write(date.getTime() + '<br/>');
+
+  date.setDate('22');
+  document.write(date + '<br/>');
+  date.setYear('2015');
+  document.write(date + '<br/>');
+  date.setHours('23');
+  date.setMinutes('2');
+  date.setSeconds('22');
+  document.write(date + '<br/>');
+
+
+</script>
+</body>
+</html>

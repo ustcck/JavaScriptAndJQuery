@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<div id="box1" style='background: #ABCDEF; width: 300px;height: 200px;'>
+  <input type="button" value="test1" id="btn1">
+</div>
+<script>
+  var btn1 = document.getElementById('btn1');
+  var box1 = document.getElementById('box1');
+  btn1.addEventListener('click', function () {
+    alert('btn1 clicked');
+  }, false); //冒泡或捕获的布尔值(true表示捕获，false表示冒泡)。
+
+  box1.addEventListener('click', function () {
+    alert('box1 clicked');
+  }, false);
+
+  document.body.addEventListener('click', function () {
+    alert('body clicked');
+  }, false);
+
+  document.documentElement.addEventListener('click', function () {
+    alert('html clicked');
+  }, false);
+
+  document.addEventListener('click', function () {
+    alert('document clicked');
+  }, false);
+</script>
+</body>
+</html>

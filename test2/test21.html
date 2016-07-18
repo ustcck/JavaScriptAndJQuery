@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+
+  //正则表达式 test返回bool值（是否匹配到）；exec返回匹配到的字符串
+
+  //test
+  var patt = new RegExp('javascript');
+  var res = patt.test('this is a javascript cource');
+  document.write(res + '<br/>');
+
+  //或者也没有写为
+  var patt1 = /javascript/;
+  var res1 = patt1.test('this is a javascript cource');
+  document.write(res1 + '<br/>');
+
+  var patt2 = /JavaScript/i;//i代表忽略大小写
+  var res2 = patt2.test('this is a javascript cource');
+  document.write(res2 + '<br/>');
+
+  var res3 = /[abc]/.test('blue');
+  document.write(res3 + '<br/>');
+  var res4 = /[abc]/.test('12345688');
+  document.write(res4 + '<br/>');
+  var res5 = /[^abc]/.test('lue');//非abc开始的就返回ture；
+  document.write(res5 + '<br/>');
+  var res6 = /[0-9]/.test('1425647');
+  document.write(res6 + '<br/>');
+  var res7 = /[a-z]/.test('1425647');
+  document.write(res7 + '<br/>');
+  var res8 = /php|javascript|ios/i.test('PHP');
+  document.write(res8 + '<br/>');
+
+  //元字符
+  var res9 = /./.test('\n');// .代表除了换行符以外的其他任何字符 \n就是换行符
+  document.write(res9 + '<br/>');
+  var res11 = /./.test('sfg 23536568 sdfjhf tkhuj iluio');// .代表除了换行符以外的其他任何字符 \n就是换行符
+  document.write(res11 + '<br/>');
+
+  // \w查找单词字符,即为[a-zA-Z0-9]
+  var res10 = /\w/.test('blue');
+  document.write(res10 + '<br/>');
+  var res12 = /\w/.test('@!~');
+  document.write(res12 + '<br/>');
+
+  // \W与\w相反,即为[^a-zA-Z0-9]
+  var res13 = /\W/.test('blue');
+  document.write(res13 + '<br/>');
+  var res14 = /\W/.test('@!~');
+  document.write(res14 + '<br/>');
+
+  // \s代表查找空字符 \S与\s相反
+  var res15 = /\s/.test('blue tooth');
+  document.write(res15 + '<br/>');
+  var res16 = /\s/.test('afgsdhfgyj');
+  document.write(res16 + '<br/>');
+
+  // \b代表字符的边界 \B与\b相反
+  var res17 = /\br/.test('red');
+  document.write(res17 + '<br/>');
+  var res18 = /\br/.test('blue');
+  document.write(res18 + '<br/>');
+
+  var res19 = /o+/.test('good'); //+代表o至少出现一次
+  document.write(res19 + '<br/>');
+  var res20 = /o+/.test('blue');
+  document.write(res20 + '<br/>');
+
+  //o*代表匹配任何包含另个或者多个o的字符串
+  //o?代表匹配任何包含另个或者一个o的字符串
+  //o{X}代表匹配任何包含X个o的字符串
+  //o{X,Y}代表匹配任何包含X个或者Y个o的字符串
+  //o{X,}代表匹配包含至少X个o的字符串
+  //o$代表匹配任何结尾为o的字符串
+  //^o代表匹配任何开头为o的字符串
+
+  var res21 = /o(?=w)/.test('helloworld');//o(?=w)代表匹配任何o后面为w的字符串
+  document.write(res21 + '<br/>');
+
+  var res22 = /o(?!w)/.test('hellowrld');//o(?!w)代表匹配任何o后面bu为w的字符串
+  document.write(res22 + '<br/>');
+
+
+  //exec
+  var res23 = /is/ig.exec('this is a test');
+  document.write(res23 + '<br/>');
+  document.write(res23[0] + '<br/>');
+
+  var str = 'this is a test hello maizi';
+  var patt = /i/ig;
+  var myArr;
+  while ((myArr = patt.exec(str)) !== null) {
+    var msg = '找到了' + myArr[0] + '!';
+    msg += '下一个匹配从' + patt.lastIndex;
+    document.write(msg + '<br/>');
+  }
+
+
+  //支持正则表达式的String对象的方法 ：search、match、replace、split
+  var str5 = 'this is a test';
+  var res33 = str.match(/IS/i);
+  document.write(res33 + '<br/>');
+  var res33 = str.match(/IS/ig);
+  document.write(res33 + '<br/>');
+  var res33 = str.search(/IS/i);
+  document.write(res33 + '<br/>');
+  var res33 = str.replace(/IS/i, '!');
+  document.write(res33 + '<br/>');
+  var res33 = str.replace(/IS/ig, '!');
+  document.write(res33 + '<br/>');
+
+  //年月日的转化
+  var str = '2016-07-01';
+  res = str.replace(/(\d{4})-(\d{2})-(\d{2})/, '$2/$3/$1');
+  document.write(res + '<br/>');
+
+
+  str = 'Hello Maizi Edu';
+  res = str.replace(/[A-Z]/g, func);
+  function func(match) {
+    return 'king_' + match.toLowerCase();
+  }
+  document.write(res + '<br/>');
+
+</script>
+</body>
+</html>
