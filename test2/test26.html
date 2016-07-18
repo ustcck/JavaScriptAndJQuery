@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="EventUtils.js"></script>
+</head>
+<body>
+<input type="button" value="test1" id="btn1">
+<div id="box1">          <!--//生成div#box1>input:button-->
+  <input type="button" value="test2" id="btn2">
+</div>
+<script>
+  var btn1 = document.getElementById('btn1');
+  EventUtil.addHandler(btn1,'click',function (event) {
+    event = EventUtil.getEvent(event);
+    var target = EventUtil.getTarget(event);
+    alert(target.tagName);
+  });
+
+  var box1 = document.getElementById('box1');
+  var btn2 = document.getElementById('btn2');
+  box1.onclick = function () {
+    alert('Div clicked');
+  };
+  btn2.onclick = function (event) {
+    alert('button clicked');
+    event = EventUtil.getEvent(event);
+    EventUtil.stopPropagation(event);
+  };
+
+  document.body.onclick = function () {
+    alert('body clicked');
+  };
+</script>
+</body>
+</html>

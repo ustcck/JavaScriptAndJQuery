@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="EventUtils.js"></script>
+</head>
+<body><!-- onload="alert('hello world')"-->
+<input type="button" value="test1" id="btn1" onclick="func()">
+<script>
+  EventUtil.addHandler(window,'load',function () {
+    alert('this is a test');
+  })
+</script>
+<script>
+  function func() {
+    var test1 = document.getElementById('btn1');
+    alert(test1);
+    alert('this is a test');
+  }
+</script>
+</body>
+</html>

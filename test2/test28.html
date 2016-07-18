@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="EventUtils.js"></script>
+</head>
+<body>
+<!--<p><img src="IMG_5175.JPG" alt="" onload="alert('image loaded')"></p>-->
+<p><img src="IMG_5175.JPG" alt="" id="img"></p>
+<script>
+  var img = document.getElementById('img');
+  EventUtil.addHandler(img, 'load', function (event) {
+    event = EventUtil.getEvent(event);
+    alert(EventUtil.getTarget(event).src);
+
+  });
+</script>
+</body>
+</html>
