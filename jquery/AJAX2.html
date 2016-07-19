@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--load(url,[data],[callback])  ：载入远程HTML文件并插入至DOM-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery AJAX</title>
+</head>
+<body>
+<div id="result"></div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+      var ajax_load = "<img src='loading.gif' alt='loading...'>";
+      var loadUrl = "../api";
+      $('#result').html(ajax_load).load(loadUrl+' #item2');
+    });
+  });
+</script>
+</html>

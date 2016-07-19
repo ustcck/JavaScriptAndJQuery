@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--1.基本的添加删除事件-->
+<!--2.存储到Local Storage-->
+<!--3.支持拖拽-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jquery TODO List</title>
+  <link rel="stylesheet" href="style4.css">
+  <link rel="stylesheet" href="../jquery-ui-1.12.0/jquery-ui.css">
+</head>
+<body>
+<div class="task-list" id="pending">
+  <h3>待处理</h3>
+  <div class="todo-task">
+    <div class="task-haeder">题目</div>
+    <div class="task-date">10/07/2016</div>
+    <div class="task-description">内容</div>
+  </div>
+</div>
+
+<div class="task-list" id="inProgress">
+  <h3>进行中</h3>
+</div>
+
+<div class="task-list" id="completed">
+  <h3>已完成</h3>
+</div>
+
+<div class="task-list">
+  <h3>添加项目</h3>
+  <form id="todo-form">
+    <input type="text" placeholder="标题">
+    <textarea placeholder="内容"></textarea>
+    <input type="text" placeholder="截止日期(月/日/年)">
+    <input type="button" class="btn btn-primary" value="添加项目">
+  </form>
+  <input type="button" class="btn btn-primary" value="清空全部项目">
+  <div id="delete-div">拖动到这里删除</div>
+</div>
+</body>
+<script src="jquery.js"></script>
+<script src="app.js"></script>
+<script>
+  $(document).ready(function () {
+    console.log('This is a todo list');
+    var myTodoList = new MyTodoList();
+    myTodoList.generateElement({
+      id: '123',
+      code: '1',
+      title: 'Back to China',
+      date: '07/19/2016',
+      description: 'I will go back to China'
+    });
+    myTodoList.removeElement({
+      id:'001'
+    })
+
+  });
+</script>
+</html>

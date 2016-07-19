@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--$.ajax事件 ----最常用的  -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery AJAX</title>
+</head>
+<body>
+<div id="result">before ajax</div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+      $.ajax({
+        url: '../api',
+        data: {
+          id: 123
+        },
+        type: 'post',
+        dataType: 'json',
+        success: function () {
+          debugger;
+        },
+        error: function (xhr, status, errorThrown) {
+          debugger;
+        },
+        complete: function (xhr, status) {
+          debugger;
+        }
+      });
+    });
+  });
+</script>
+</html>

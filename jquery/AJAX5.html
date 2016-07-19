@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!--jQuery.getScript(url,[callback])  ：使用GET方式请求载入并执行一个JavaScript文件-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery AJAX</title>
+</head>
+<body>
+<div id="result"></div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+      $.getScript('test.js', function (data, textStatus) {
+        alert(data);
+      });
+    });
+  });
+</script>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!--jQuery.post(url,[data],[callback])  ：使用POST方式来进行异步请求-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery AJAX</title>
+</head>
+<body>
+<div id="result"></div>
+<button>Click Me</button>
+</body>
+<script src="jquery.js"></script>
+<script>
+  $(document).ready(function () {
+    $('button').on('click', function () {
+      $.post('../api1', {action: 'get', name: 'Ryan'}, function (data, textStatus) {
+        alert(data);
+        alert(textStatus);
+      });
+    });
+  });
+</script>
+</html>

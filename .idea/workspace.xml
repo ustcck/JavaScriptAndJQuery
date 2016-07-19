@@ -5,28 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbed15da-0060-43ac-9c2b-4ab4b25d7189" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/animation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/eventHandler.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/events.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test.html" afterPath="$PROJECT_DIR$/jquery/selector.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test10.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test11.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test12.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation4.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test13.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation5.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test14.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation6.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test15.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation7.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test16.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation8.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test17.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation9.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test18.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation10.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test2.html" afterPath="$PROJECT_DIR$/jquery/selector2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test3.html" afterPath="$PROJECT_DIR$/jquery/Filter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test4.html" afterPath="$PROJECT_DIR$/jquery/Filter2.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test5.html" afterPath="$PROJECT_DIR$/jquery/visibilityFilter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test6.html" afterPath="$PROJECT_DIR$/jquery/attributeFilter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test7.html" afterPath="$PROJECT_DIR$/jquery/childFilter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test8.html" afterPath="$PROJECT_DIR$/jquery/formFliter.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jquery/test9.html" afterPath="$PROJECT_DIR$/jquery/DOMManipulation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/images/ui-icons_444444_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/images/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/images/ui-icons_777620_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/images/ui-icons_777777_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/images/ui-icons_cc0000_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build/js.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/img/external.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/blue/asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/blue/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/blue/blue.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/blue/desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/green/asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/green/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/green/desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/green/green.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api1/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/AUTHORS.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/external/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.structure.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.structure.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/jquery-ui.theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery-ui-1.12.0/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/AJAX.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/AJAX2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/AJAX3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/AJAX4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/AJAX5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/AJAX6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/TODOList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/UI.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/UI2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/UI3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/UI4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/UI5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/animation2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/animation3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/style3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/style4.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/tablesorter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/addons/pager/jquery.tablesorter.pager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/addons/pager/jquery.tablesorter.pager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build/ParseMaster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build/jsmin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build/min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build/pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build/packer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/build/writeFile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/changelog" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/assets/ajax-content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/css/jq.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-attribute-sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-empty-table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-extending-defaults.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-meta-headers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-meta-parsers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-meta-sort-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-option-debug.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-option-digits.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-option-sort-force.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-option-sort-key.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-option-sort-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-option-sort-order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-option-text-extraction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-options-headers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-pager.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-parsers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-trigger-sort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-triggers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-update-cell.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/example-widgets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/js/docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/docs/js/examples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/jquery-latest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/jquery.metadata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/jquery.tablesorter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/jquery.tablesorter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/blue/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tablesorter-master/themes/green/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery/animation.html" afterPath="$PROJECT_DIR$/jquery/animation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery/style.css" afterPath="$PROJECT_DIR$/jquery/style.css" />
     </list>
     <ignored path="jsproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,11 +126,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="animation.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jquery/animation.html">
+      <file leaf-file-name="UI.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/UI.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/UI2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/UI3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI4.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/UI4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI5.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/UI5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tablesorter.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/tablesorter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TODOList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/TODOList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jquery/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1033">
+              <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style4.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jquery/style4.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,9 +231,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -82,30 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test2/test15.html" />
-        <option value="$PROJECT_DIR$/test2/test16.html" />
-        <option value="$PROJECT_DIR$/test2/test17.html" />
-        <option value="$PROJECT_DIR$/test2/test18.html" />
-        <option value="$PROJECT_DIR$/test2/test19.html" />
-        <option value="$PROJECT_DIR$/test2/test20.html" />
-        <option value="$PROJECT_DIR$/test2/test21.html" />
-        <option value="$PROJECT_DIR$/test2/test22.html" />
-        <option value="$PROJECT_DIR$/test2/test23.html" />
-        <option value="$PROJECT_DIR$/test2/event.html" />
-        <option value="$PROJECT_DIR$/test2/event1.html" />
-        <option value="$PROJECT_DIR$/test2/addEventListener.html" />
-        <option value="$PROJECT_DIR$/test2/addEventListener1.html" />
-        <option value="$PROJECT_DIR$/test2/addEventListener2.html" />
-        <option value="$PROJECT_DIR$/test2/addEventListener3.html" />
-        <option value="$PROJECT_DIR$/test2/addEventListener4.html" />
-        <option value="$PROJECT_DIR$/test2/test24.html" />
-        <option value="$PROJECT_DIR$/test2/test25.html" />
-        <option value="$PROJECT_DIR$/test2/test26.html" />
-        <option value="$PROJECT_DIR$/test2/EventUtils.js" />
-        <option value="$PROJECT_DIR$/test2/test27.html" />
-        <option value="$PROJECT_DIR$/test2/test28.html" />
-        <option value="$PROJECT_DIR$/test2/form.html" />
-        <option value="$PROJECT_DIR$/test3/style.css" />
         <option value="$PROJECT_DIR$/test3/index.html" />
         <option value="$PROJECT_DIR$/test3/test.html" />
         <option value="$PROJECT_DIR$/jquery/test.html" />
@@ -133,6 +278,30 @@
         <option value="$PROJECT_DIR$/jquery/test19.html" />
         <option value="$PROJECT_DIR$/jquery/events.js" />
         <option value="$PROJECT_DIR$/jquery/animation.html" />
+        <option value="$PROJECT_DIR$/jquery/animation2.html" />
+        <option value="$PROJECT_DIR$/jquery/style.css" />
+        <option value="$PROJECT_DIR$/jquery/animation3.html" />
+        <option value="$PROJECT_DIR$/jquery/AJAX.html" />
+        <option value="$PROJECT_DIR$/jquery/AJAX2.html" />
+        <option value="$PROJECT_DIR$/api/index.html" />
+        <option value="$PROJECT_DIR$/api1/index.html" />
+        <option value="$PROJECT_DIR$/jquery/AJAX3.html" />
+        <option value="$PROJECT_DIR$/jquery/AJAX4.html" />
+        <option value="$PROJECT_DIR$/jquery/AJAX5.html" />
+        <option value="$PROJECT_DIR$/jquery/test.js" />
+        <option value="$PROJECT_DIR$/jquery/AJAX6.html" />
+        <option value="$PROJECT_DIR$/jquery/style3.css" />
+        <option value="$PROJECT_DIR$/jquery/UI.html" />
+        <option value="$PROJECT_DIR$/jquery/UI2.html" />
+        <option value="$PROJECT_DIR$/jquery/UI4.html" />
+        <option value="$PROJECT_DIR$/jquery/UI3.html" />
+        <option value="$PROJECT_DIR$/jquery/UI5.html" />
+        <option value="$PROJECT_DIR$/jquery/jquery.tablesorter.js" />
+        <option value="$PROJECT_DIR$/jquery/tablesorter.html" />
+        <option value="$PROJECT_DIR$/jquery-ui-1.12.0/TODOList.html" />
+        <option value="$PROJECT_DIR$/jquery/style4.css" />
+        <option value="$PROJECT_DIR$/jquery/app.js" />
+        <option value="$PROJECT_DIR$/jquery/TODOList.html" />
       </list>
     </option>
   </component>
@@ -201,7 +370,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
+              <option name="myItemId" value="jquery-ui-1.12.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,8 +406,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ustcck\WebstormProjects\jsproject\jquery" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ustcck\WebstormProjects\jsproject\jquery" />
+      <recent name="C:\Users\ustcck\WebstormProjects\jsproject" />
+      <recent name="C:\Users\ustcck\WebstormProjects\jsproject\api1" />
       <recent name="C:\Users\ustcck\WebstormProjects\jsproject\test2" />
     </key>
   </component>
@@ -337,7 +511,7 @@
       <workItem from="1468679512567" duration="1337000" />
       <workItem from="1468723002092" duration="20912000" />
       <workItem from="1468807411063" duration="39213000" />
-      <workItem from="1468895054152" duration="474000" />
+      <workItem from="1468895054152" duration="25728000" />
     </task>
     <task id="LOCAL-00001" summary="haha">
       <created>1467262249203</created>
@@ -374,33 +548,40 @@
       <option name="project" value="LOCAL" />
       <updated>1468864647726</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="haha">
+      <created>1468895554008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1468895554008</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127131000" />
+    <option name="totallyTimeSpent" value="152385000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39921466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39921466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -420,216 +601,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test2/test20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test16.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test13.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test22.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test23.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/event1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/addEventListener.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="13" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/addEventListener2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/addEventListener1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/addEventListener3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/addEventListener4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test21.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test17.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test18.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test19.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test24.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test25.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/EventUtils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test26.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test27.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/test28.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jquery/style2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -684,7 +655,7 @@
         <state relative-caret-position="80">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -726,7 +697,7 @@
         <state relative-caret-position="360">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -768,7 +739,7 @@
         <state relative-caret-position="160">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -802,15 +773,246 @@
         <state relative-caret-position="260">
           <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery/animation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="20">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/animation2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="25" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/animation3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/AJAX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/AJAX3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/AJAX2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/AJAX4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/AJAX5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/AJAX6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="9381" column="0" selection-start-line="9381" selection-start-column="0" selection-end-line="9382" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/style3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/UI.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/UI2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="18" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/UI3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/UI4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/UI5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery-table-sort-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tablesorter-master/docs/js/docs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/jquery.tablesorter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tablesorter-master/jquery.tablesorter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/tablesorter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/style4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/TODOList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jquery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

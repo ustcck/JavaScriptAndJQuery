@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--draggable(),droppable(),sortable(),selectable()-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery UI</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="../jquery-ui-1.12.0/jquery-ui.css">
+</head>
+<body>
+<div class="block"></div>
+<div class="drop"></div>
+<ul class="sort">
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+</ul>
+</body>
+<script src="jquery.js"></script>
+<script src="../jquery-ui-1.12.0/jquery-ui.js"></script>
+<script>
+  $(document).ready(function () {
+//    $('.block').draggable();
+    $('.block').draggable({helper:'clone',opacity:0.4});
+    $('.drop').droppable({
+      accept:'.block',
+      activeClass:'droppable-active',
+      hoverClass:'droppable-hover',
+      drop:function (ev,ui) {
+        $(this).append('<br>Dropped');
+      }
+    });
+
+//    $('.sort').sortable({axis:'y'});
+//    $('.sort').selectable();
+    $('.block').resizable();
+
+
+  });
+</script>
+</html>

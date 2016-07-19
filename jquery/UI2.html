@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--accordion() ----可折叠的-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery UI</title>
+  <link rel="stylesheet" href="style3.css">
+  <link rel="stylesheet" href="../jquery-ui-1.12.0/jquery-ui.css">
+</head>
+<body>
+<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+      Query UI overrides several built-in jQuery methods in
+      order to provide additional functionality. When using these overrides,
+      it's important to make sure that jQuery UI is loaded. If jQuery UI is not loaded,
+      the methods will still exist, but the expected functionality will not be available,
+      resulting in bugs that may be hard to track down.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+      Query UI overrides several built-in jQuery methods in
+      order to provide additional functionality. When using these overrides,
+      it's important to make sure that jQuery UI is loaded. If jQuery UI is not loaded,
+      the methods will still exist, but the expected functionality will not be available,
+      resulting in bugs that may be hard to track down.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+      Query UI overrides several built-in jQuery methods in
+      order to provide additional functionality. When using these overrides,
+      it's important to make sure that jQuery UI is loaded. If jQuery UI is not loaded,
+      the methods will still exist, but the expected functionality will not be available,
+      resulting in bugs that may be hard to track down.
+    </p>
+    <ul>
+      <li>list item one</li>
+      <li>list item two</li>
+      <li>list item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+      Query UI overrides several built-in jQuery methods in
+      order to provide additional functionality. When using these overrides,
+      it's important to make sure that jQuery UI is loaded. If jQuery UI is not loaded,
+      the methods will still exist, but the expected functionality will not be available,
+      resulting in bugs that may be hard to track down.
+    </p>
+    <p>
+      Add or remove one or more classes from each element in the set of matched elements,
+      depending on either the class’s presence or the value of the switch argument,
+      while animating all style changes.
+    </p>
+  </div>
+</div>
+
+</body>
+<script src="jquery.js"></script>
+<script src="../jquery-ui-1.12.0/jquery-ui.js"></script>
+<script>
+  $(document).ready(function () {
+    $('#accordion').accordion({collapsible:true,active:2});
+
+  });
+</script>
+</html>

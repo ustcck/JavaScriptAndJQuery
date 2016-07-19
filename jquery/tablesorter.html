@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--tablesorter-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>jquery tablesorter</title>
+  <link rel="stylesheet" href="../jquery-ui-1.12.0/jquery-ui.css">
+</head>
+<body>
+<table id="myTable" class="tablesorter">
+  <thead>
+  <tr>
+    <th>last name</th>
+    <th>first name</th>
+    <th>email</th>
+    <th>due</th>
+    <th>web site</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <th>Smith</th>
+    <th>John</th>
+    <th>ustcckj@outlook.com</th>
+    <th>$50.00</th>
+    <th>http://www.baidu.com</th>
+  </tr>
+  <tr>
+    <th>Bath</th>
+    <th>Frank</th>
+    <th>sdfh@outlook.com</th>
+    <th>$40.00</th>
+    <th>http://www.dfs.com</th>
+  </tr>
+  <tr>
+    <th>Doe</th>
+    <th>Jason</th>
+    <th>jason@outlook.com</th>
+    <th>$30.00</th>
+    <th>http://www.jason.com</th>
+  </tr>
+  <tr>
+    <th>Conway</th>
+    <th>Tim</th>
+    <th>tim@outlook.com</th>
+    <th>$60.00</th>
+    <th>http://www.tim.com</th>
+  </tr>
+  </tbody>
+</table>
+
+</body>
+<script src="jquery.js"></script>
+<script src="../tablesorter-master/jquery.tablesorter.js"></script>
+<script>
+  $(document).ready(function () {
+    $('#myTable').tablesorter();
+  })
+
+</script>
+</html>

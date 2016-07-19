@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--dialog() ----对话框-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JQuery UI</title>
+  <link rel="stylesheet" href="../jquery-ui-1.12.0/jquery-ui.css">
+</head>
+<body>
+<div id="dialog" title="caokai dialog">
+  <p>
+    Query UI overrides several built-in jQuery methods in
+    order to provide additional functionality. When using these overrides,
+    it's important to make sure that jQuery UI is loaded. If jQuery UI is not loaded,
+    the methods will still exist, but the expected functionality will not be available,
+    resulting in bugs that may be hard to track down.
+  </p>
+</div>
+</body>
+<script src="jquery.js"></script>
+<script src="../jquery-ui-1.12.0/jquery-ui.js"></script>
+<script>
+  $(document).ready(function () {
+    $('#dialog').dialog();
+
+  });
+</script>
+</html>
